@@ -10,7 +10,7 @@ from Cython.Distutils import build_ext
 import numpy
 import numpy.distutils
 
-extra_link_args = ['-lblas']
+extra_link_args = ['-L/usr/lib/x86_64-linux-gnu/']
 include_dirs = numpy.distutils.misc_util.get_numpy_include_dirs()
 
 extensions = cythonize(

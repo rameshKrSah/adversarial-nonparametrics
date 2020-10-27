@@ -111,7 +111,7 @@ def get_constraints(np.ndarray[DTYPE_t, ndim=2] trnX, np.ndarray tuple_x,
     cdef double [:] w_view = w
     cdef double [:, :] trnX_view = trnX
     cdef long [:] points_view = ps
-    cdef long [:] tuple_view = tuple_x
+    cdef long long [:] tuple_view = tuple_x
     cdef long pi
 
     Gl, hl, dl = [], [], []

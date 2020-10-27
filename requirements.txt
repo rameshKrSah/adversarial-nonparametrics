@@ -3,6 +3,7 @@ keras==2.3.0
 bistiming
 scikit-image
 sklearn
+autovar
 cleverhans==3.0.1
 cvxopt==1.2.3
 cvxpy==1.0.21
